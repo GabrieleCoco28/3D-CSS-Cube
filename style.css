@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+}
+#front {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    transform: translateX(500px) translateY(300px) translateZ(-50px);
+    box-shadow: 0px 0px 0px 4px black;
+    opacity: 0.5;
+}
+#back {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position: relative;
+    transform: translateX(500px) translateY(200px) translateZ(50px);
+    box-shadow: 0px 0px 0px 4px black;
+    opacity: 0.5;
+}
+#top {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: relative;
+    transform: translateX(500px) translateY(50px) rotateX(90deg);
+    box-shadow: 0px 0px 0px 4px black;
+    opacity: 0.5;
+}
+#bottom {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+    transform: translateX(500px) translateY(50px) rotateX(90deg);
+    box-shadow: 0px 0px 0px 4px black;
+    opacity: 0.5;
+}
+#right {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    transform: translateX(550px) translateY(-100px) rotateY(90deg);
+    box-shadow: 0px 0px 0px 4px black;
+    opacity: 0.5;
+}
+#left {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: relative;
+    transform: translateX(450px) translateY(-200px) rotateY(90deg);
+    box-shadow: 0px 0px 0px 4px black;
+    opacity: 0.5;
+}
+#cube {
+    animation: rotation 5s linear infinite;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    width: 1098px;
+    height: 698px;
+    align-items: center;
+}
+@keyframes rotation {
+    from {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
