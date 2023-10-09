@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T16:31:36.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="cqugVCIg5aTMQpnxw6FB" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T16:37:30.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="fWYwb_CoA1Sg1oshzy5C" version="22.0.4" type="github">
   <diagram name="Pagina-1" id="PeRzWWAR64-kBi8eqata">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xKeNGiAYLAsAirpTkKmd-1" value="HEADER" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4" width="820" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKeNGiAYLAsAirpTkKmd-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;PRENOTA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="189" y="5" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xKeNGiAYLAsAirpTkKmd-3" value="Backstage COME PRIPRYAT, canzone del nuovo album" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4" y="100" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKeNGiAYLAsAirpTkKmd-4" value="VIDEO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="440" height="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
